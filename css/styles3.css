@@ -1,0 +1,88 @@
+body{
+    background-color: #fefffe;
+}
+.headerNav{
+    display: flex;
+    background-color: #283048;
+    color: #acb4c2;
+}
+a{
+    color: #acb4c2;
+    margin: 10px;
+    text-decoration: none;
+}
+.namePag{
+    width: 50%;
+}
+h1{
+    font-size: 40px;
+    margin-left: 20%;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+}
+.image{
+    background: url(../recursos/imagenes/image1pag3.webp) bottom / cover ;
+    width: 80%;
+    border: 1px solid #000;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: end;
+}
+.pImg{
+    color: #fff;
+    background-color: #05f3;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #efefee;
+}
+img{
+    border-radius: 90px;
+
+}
+#title1{
+    width: 30%;
+    background-color: #4890c1;
+    color: #fff;
+}
+#title1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img{
+    width: 20%;
+    text-align: center;
+}
+#text1{
+    width: 30%;
+}
+#text2{
+    width: 30%;
+}
+
+#text2{
+
+    width: 40%;
+}
+.textContent{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+.text{
+    background-color: #e98714;
+    margin: 0;
+}

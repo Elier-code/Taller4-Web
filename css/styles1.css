@@ -1,0 +1,94 @@
+body{
+    background-color: #73617d;
+    color: #fff;
+}
+.content{
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-areas:'titulo1 text1 divImg1 divImg1 divImg2'
+                        'titulo1 text1 divImg1 divImg1 divImg2'
+                        'text2 text1 divImg1 divImg1 divImg2'
+                        'text2 divImg3 divImg3 titulo2 text3'
+                        'divImg4 divImg3 divImg3 divImg5 text3'
+                        'divImg6 divImg6 text4 divImg5 divImg7'
+                        'divImg6 divImg6 text4 divImg8 divImg8';
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);/*Investigar funcionalidad*/
+    grid-template-rows: repeat(7, 170px);
+    width: 70%;
+}
+
+
+.titulo1{
+    grid-area: titulo1;
+    background-color: #fcc765;
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 65px;
+}
+h1{
+    font-size: 50px;
+}
+#contenido{
+    padding: 20px;
+}
+.text1{
+    grid-area: text1;
+    background-color: #c0b8ae;
+}
+.divImg1{
+    grid-area: divImg1;
+    background: url(../recursos/imagenes/primera.avif) center / cover ;
+}
+.divImg2{
+    grid-area: divImg2;
+    background: url(../recursos/imagenes/segunda.jpg) center / cover #fff;
+
+}
+.text2{
+    grid-area: text2;
+    background-color: #c0b8ae;
+}
+.divImg3{
+    grid-area: divImg3;
+    background: url(../recursos/imagenes/tercera.webp) center / cover #fff;
+}
+.titulo2{
+    grid-area: titulo2;
+    background-color: #fd8b70;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.text3{
+    grid-area: text3;
+    background-color: #c0b8ae;
+}
+.divImg4{
+    grid-area: divImg4;
+    background: url(../recursos/imagenes/cuarta.jpg) center / cover #fff;
+}
+.divImg5{
+    grid-area: divImg5;
+    background: url(../recursos/imagenes/quinta.webp) center / cover #fff;
+}
+.text4{
+    grid-area: text4;
+    background-color: #c0b8ae;
+}
+.divImg6{
+    grid-area: divImg6;
+    background: url(../recursos/imagenes/sexta.webp) center / cover #fff;
+}
+.divImg7{
+    grid-area: divImg7;
+    background: url(../recursos/imagenes/septima.avif) center / cover #fff;
+}
+.divImg8{
+    grid-area: divImg8;
+    background: url(../recursos/imagenes/octava.jpg) top / cover #fff;
+}
